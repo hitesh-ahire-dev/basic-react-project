@@ -5,6 +5,7 @@ import CurrencyConverterHome from "./components/currency-converter/CurrencyConve
 import AdditionApp from "./components/AdditionApp";
 import Parent from "./components/parent-child-reln/Parent";
 import UserContextHome from "./components/context-section/components/UserContextHome";
+import TodoHome from "./todo-app/TodoHome";
 
 function App() {
   const [color, setColor] = useState("red");
@@ -21,8 +22,10 @@ function App() {
 
     {/* <Parent/> */}
 
-    <UserContextHome/>
+    {/* <UserContextHome/> */}
 
+    <TodoHome/>
+    
     </div>
 
   );
