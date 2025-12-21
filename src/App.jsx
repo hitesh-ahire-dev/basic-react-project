@@ -6,6 +6,7 @@ import AdditionApp from "./components/AdditionApp";
 import Parent from "./components/parent-child-reln/Parent";
 import UserContextHome from "./components/context-section/components/UserContextHome";
 import TodoHome from "./todo-app/TodoHome";
+import ReduxHome from "./reduxToolkitTodo/ReduxHome";
 
 function App() {
   const [color, setColor] = useState("red");
@@ -24,7 +25,9 @@ function App() {
 
     {/* <UserContextHome/> */}
 
-    <TodoHome/>
+    {/* <TodoHome/> */}
+
+    <ReduxHome/>
     
     </div>
 
